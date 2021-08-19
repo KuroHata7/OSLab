@@ -1,0 +1,4 @@
+    1  ls
+    2  ls
+    3  history
+    4  history > ~/week1/ex2.txt
