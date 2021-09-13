@@ -6,3 +6,11 @@ int main(){
   }
   return 0;
 }
+/*
+ konsole─┬─bash─┬─ex2─┬─ex2─┬─ex2───ex2
+        │          │         │      │     │     └─ex2
+        │          │         │      │     ├─ex2───ex2
+        │          │         │      │     └─ex2
+        │          │         │      └─pstree
+        │          │         └─6*[{konsole}]
+*/
