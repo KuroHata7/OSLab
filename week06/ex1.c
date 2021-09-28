@@ -33,8 +33,12 @@ int main(){
         row++;
         char* token = strtok(buffer, ",");
         while(token){
-            if(strlen(token) > 1)
-                token[1] = '\0';
+            for(int i=0;i<strlen(token);i++){
+                if(token[i] == '\n'){
+                    token[i] = '\0';
+                    break;
+                }
+            }
             
             if(column == 0){
                 at[row] = atoi(token);
