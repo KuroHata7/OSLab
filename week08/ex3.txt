@@ -1,0 +1,18 @@
+PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND  
+   2403 kurohat+  20   0 3925348 471252 217012 S   4,0   2,9   1:24.25 firefox  
+   6055 kurohat+  20   0 2495648 151092 108080 S   3,0   0,9   0:27.34 file://+ 
+   1824 kurohat+  20   0  885744  90768  49456 S   2,0   0,6   0:57.97 Xorg     
+   1969 kurohat+  20   0 4801240 285160 102964 S   1,0   1,8   0:58.79 gnome-s+ 
+   2213 kurohat+  20   0  162700   7048   6408 S   1,0   0,0   0:00.89 ibus-en+ 
+   2851 kurohat+  20   0   36,3g  77540  51228 S   1,0   0,5   0:03.97 code     
+   6110 kurohat+  20   0 1167196 311920 150128 S   1,0   1,9   0:14.77 telegra+ 
+   8463 kurohat+  20   0   33228  31688   1044 S   1,0   0,2   0:00.01 ex2      
+   8464 kurohat+  20   0   11996   3896   3128 R   1,0   0,0   0:00.02 top      
+      1 root      20   0  168040  11788   8344 S   0,0   0,1   0:01.62 systemd  
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd 
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp   
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+ 
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker+ 
+      9 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_perc+ 
+     10 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tas+ 
+     11 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tas+

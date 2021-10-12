@@ -1,0 +1,1 @@
+Physical Address is the exact address of some cell in physical memory whereas Virtual Address belongs to some page in virtual memory which is then supported by physcial memory.
