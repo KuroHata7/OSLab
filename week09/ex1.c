@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 typedef struct page Page;
-
+const int max_bit = 7;
 
 struct page {
     int id;
@@ -39,14 +39,14 @@ int main(int argc, char *argv[]) {
             if(ram[i].id == _iterator) {
                 hit++;
                 found = 1;
-                ram[i].count += (1<<7);
+                ram[i].count += (1<<max_bit);
             }
         }
 
          if(!found) {
             miss++;
             ram[min_index].id = _iterator;
-            ram[min_index].count = (1<<7);
+            ram[min_index].count = (1<<max_bit);
         }
 
         fscanf (input, "%d", &_iterator);
