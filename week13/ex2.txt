@@ -1,0 +1,8 @@
+Prevention:
+Designing the program to have no deadlocks which is extremely difficult to achieve but offers the bets performance.
+
+Recovery:
+Works to solve an existing deadlock. Is not stable.
+
+Avoidance:
+The safest strategy, fairly easy to implement but does not offer the best performance because it attempts to predict the deadlock ahead of time.
